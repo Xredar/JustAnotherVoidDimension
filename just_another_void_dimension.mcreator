@@ -1,0 +1,143 @@
+{
+  "id_map": {},
+  "mod_elements": [
+    {
+      "name": "VoidDimension",
+      "type": "dimension",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_dimension"
+    },
+    {
+      "name": "VoidPortalOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 2,
+      "compiles": false,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_portal_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "VoidPortal",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_portal"
+    },
+    {
+      "name": "VoidPortalBlockAdded",
+      "type": "procedure",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "void_portal_block_added",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Dimension",
+      "type": "procedure",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DimensionDisplay",
+      "type": "overlay",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "ids": {},
+      "registry_name": "dimension_display"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "dimensionID",
+      "type": "number",
+      "scope": "player_persistent",
+      "value": "0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.just_another_void_dimension.void_dimension": "Void Dimension Portal Igniter",
+      "block.just_another_void_dimension.void_portal": "Void Portal"
+    }
+  },
+  "workspaceSettings": {
+    "modid": "just_another_void_dimension",
+    "modName": "Just Another Void Dimension",
+    "version": "1.0.0",
+    "author": "macuser, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.15.2",
+    "modElementsPackage": "net.justanothervoiddimension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202000547520
+}

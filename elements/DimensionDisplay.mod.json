@@ -1,0 +1,23 @@
+{
+  "_fv": 13,
+  "_type": "overlay",
+  "definition": {
+    "priority": "NORMAL",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "text": "<VAR:dimensionID>",
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "name": "<VAR:dimensionID>",
+          "x": 0,
+          "y": 0
+        }
+      }
+    ],
+    "baseTexture": ""
+  }
+}

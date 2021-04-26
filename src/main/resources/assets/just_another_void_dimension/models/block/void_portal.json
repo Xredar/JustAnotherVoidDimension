@@ -1,0 +1,7 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "just_another_void_dimension:blocks/void_portal",
+    "particle": "just_another_void_dimension:blocks/void_portal"
+  }
+}
